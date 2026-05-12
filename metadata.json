@@ -1,0 +1,12 @@
+{
+  "name": "SmartTrip AI",
+  "description": "An AI-powered travel itinerary planner with interactive maps, budget tracking, and simulated user authentication using local storage.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Travel Planning",
+    "Interactive Maps",
+    "Local Storage Mock Auth"
+  ]
+}
