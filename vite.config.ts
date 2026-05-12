@@ -7,10 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    // IMPORTANT: Replace "YOUR_REPOSITORY_NAME" with your exact GitHub repository name.
-    // Example: if your repo is named "smarttrip-ai", use '/smarttrip-ai/'
-    // Example: if your repo is named "Mastermindmadan", use '/Mastermindmadan/'
-    base: '/YOUR_REPOSITORY_NAME/',
+    base: '/smarttrip-ai/', // Replace with your exact repository name
 
     plugins: [react(), tailwindcss()],
 
